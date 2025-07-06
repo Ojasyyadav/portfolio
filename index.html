@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⚡ Ojas & Anadi - The Code Athletes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">⚡ OJAS & ANADI</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#hero" class="nav-link">Genesis</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">Origins</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Powers</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sports" class="nav-link">Arena</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Conquests</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Summon</a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <button class="theme-toggle" id="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background">
+            <div class="stadium-lights">
+                <div class="light light-1"></div>
+                <div class="light light-2"></div>
+                <div class="light light-3"></div>
+                <div class="light light-4"></div>
+            </div>
+            <div class="code-matrix">
+                <div class="matrix-line">01001000 01100101 01101100 01101100 01101111</div>
+                <div class="matrix-line">01010111 01101111 01110010 01101100 01100100</div>
+                <div class="matrix-line">01000011 01101111 01100100 01100101 01110010</div>
+                <div class="matrix-line">01000001 01110100 01101000 01101100 01100101</div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">⚡ Meet Ojas & Anadi</span>
+                    <span class="title-line">The Code Athletes</span>
+                </h1>
+                <p class="hero-subtitle">Where Logic Meets Lightning</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">2</span>
+                        <span class="stat-label">Code Warriors</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">∞</span>
+                        <span class="stat-label">Lines of Code</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">4</span>
+                        <span class="stat-label">Worlds Conquered</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-cta">
+                <button class="cta-button primary" onclick="scrollToSection('about')">
+                    <span>Begin the Journey</span>
+                    <i class="fas fa-bolt"></i>
+                </button>
+                <button class="cta-button secondary" onclick="scrollToSection('contact')">
+                    <span>Summon Us</span>
+                    <i class="fas fa-envelope"></i>
+                </button>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">The Origin Story</h2>
+                <p class="section-subtitle">Every legend has a beginning...</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="story-block">
+                        <h3 class="story-title">Chapter I: The Awakening</h3>
+                        <p class="story-text">
+                            In the digital realm of endless possibilities, two young warriors emerged - Ojas and Anadi, both 19 years old. 
+                            Born with the rare gift of speaking to machines through the ancient languages of HTML, CSS, and JavaScript, 
+                            they discovered that true power comes not from individual strength, but from the perfect harmony of partnership.
+                        </p>
+                    </div>
+                    <div class="story-block">
+                        <h3 class="story-title">Chapter II: The Dual Nature</h3>
+                        <p class="story-text">
+                            By day, they craft digital empires with lines of code, weaving logic into art as a united force. By dusk, they transform 
+                            into warriors of the physical realm, commanding the football field and badminton court with synchronized precision. 
+                            This is the tale of balance—brain and brawn, code and competition, individual talent and collective strength.
+                        </p>
+                    </div>
+                    <div class="story-block">
+                        <h3 class="story-title">Chapter III: The Philosophy</h3>
+                        <p class="story-text">
+                            "Boring things deserve drama," they declare in unison, transforming mundane tasks into epic quests. 
+                            Every project becomes a conquest, every challenge a boss battle fought side by side. In their world, 
+                            debugging is warfare, pair programming is strategy, and every successful deployment is a victory worth celebrating together.
+                        </p>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="character-card">
+                        <div class="character-avatar">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="character-stats">
+                            <div class="stat-bar">
+                                <span class="stat-name">Coding Power</span>
+                                <div class="stat-fill" data-skill="85"></div>
+                            </div>
+                            <div class="stat-bar">
+                                <span class="stat-name">Athletic Prowess</span>
+                                <div class="stat-fill" data-skill="90"></div>
+                            </div>
+                            <div class="stat-bar">
+                                <span class="stat-name">Dramatic Flair</span>
+                                <div class="stat-fill" data-skill="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Arsenal of Powers</h2>
+                <p class="section-subtitle">Weapons of digital destruction</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card" data-skill="html">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3 class="skill-name">HTML5</h3>
+                    <p class="skill-description">The Foundation Stone</p>
+                    <div class="skill-level">
+                        <div class="level-bar">
+                            <div class="level-fill" data-level="90"></div>
+                        </div>
+                        <span class="level-text">Master Level</span>
+                    </div>
+                    <div class="skill-effects">
+                        <span class="effect">Semantic Mastery</span>
+                        <span class="effect">Accessibility Champion</span>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-skill="css">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3 class="skill-name">CSS3</h3>
+                    <p class="skill-description">The Art of Presentation</p>
+                    <div class="skill-level">
+                        <div class="level-bar">
+                            <div class="level-fill" data-level="85"></div>
+                        </div>
+                        <span class="level-text">Expert Level</span>
+                    </div>
+                    <div class="skill-effects">
+                        <span class="effect">Animation Wizard</span>
+                        <span class="effect">Responsive Design</span>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-skill="javascript">
+                    <div class="skill-icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <h3 class="skill-name">JavaScript</h3>
+                    <p class="skill-description">The Soul of Interactivity</p>
+                    <div class="skill-level">
+                        <div class="level-bar">
+                            <div class="level-fill" data-level="80"></div>
+                        </div>
+                        <span class="level-text">Advanced Level</span>
+                    </div>
+                    <div class="skill-effects">
+                        <span class="effect">DOM Manipulation</span>
+                        <span class="effect">Event Handling</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sports Arena Section -->
+    <section id="sports" class="sports">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">🏆 The Other Side of Ojas & Anadi</h2>
+                <p class="section-subtitle">Where the warrior awakens</p>
+            </div>
+            <div class="sports-content">
+                <div class="sports-intro">
+                    <h3 class="sports-title">The Physical Realm</h3>
+                    <p class="sports-description">
+                        When the screens go dark and the keyboards fall silent, another chapter begins. 
+                        In the arena of sweat and strategy, Ojas and Anadi transform from digital architects to athletic gladiators, 
+                        their partnership extending beyond code into the realm of physical competition.
+                    </p>
+                </div>
+                <div class="sports-grid">
+                    <div class="sport-card">
+                        <div class="sport-icon">
+                            <i class="fas fa-futbol"></i>
+                        </div>
+                        <h3 class="sport-name">Football</h3>
+                        <p class="sport-description">The battlefield where strategy meets stamina</p>
+                        <div class="sport-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">Position</span>
+                                <span class="stat-value">Midfielder</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Years</span>
+                                <span class="stat-value">5+</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Style</span>
+                                <span class="stat-value">Tactical</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sport-card">
+                        <div class="sport-icon">
+                            <i class="fas fa-table-tennis"></i>
+                        </div>
+                        <h3 class="sport-name">Badminton</h3>
+                        <p class="sport-description">Where precision meets lightning reflexes</p>
+                        <div class="sport-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">Style</span>
+                                <span class="stat-value">Aggressive</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Specialty</span>
+                                <span class="stat-value">Smash</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Rank</span>
+                                <span class="stat-value">Advanced</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sports-gallery">
+                    <div class="gallery-header">
+                        <h3>Chronicles of Victory</h3>
+                        <p>Moments frozen in time</p>
+                    </div>
+                    <div class="gallery-grid">
+                        <div class="gallery-item">
+                            <div class="gallery-placeholder">
+                                <i class="fas fa-trophy"></i>
+                                <span>Championship Glory</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="gallery-placeholder">
+                                <i class="fas fa-medal"></i>
+                                <span>Victory Moment</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="gallery-placeholder">
+                                <i class="fas fa-users"></i>
+                                <span>Team Spirit</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Digital Conquests</h2>
+                <p class="section-subtitle">Battles fought in the realm of code</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Pixel Fortress</h3>
+                        <div class="project-status">
+                            <span class="status-badge legendary">Legendary</span>
+                        </div>
+                    </div>
+                    <div class="project-description">
+                        <p>A mighty fortress built from pure HTML and CSS, where every pixel serves a purpose. 
+                           This bastion of responsive design stands as a testament to the power of semantic structure.</p>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">Responsive</span>
+                    </div>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <i class="fas fa-code"></i>
+                            <span>500+ Lines</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Mobile First</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-rocket"></i>
+                            <span>Fast Loading</span>
+                        </div>
+                    </div>
+                    <div class="project-actions">
+                        <button class="project-btn primary">
+                            <i class="fas fa-eye"></i>
+                            <span>View Quest</span>
+                        </button>
+                        <button class="project-btn secondary">
+                            <i class="fab fa-github"></i>
+                            <span>Source</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">StyleStorm</h3>
+                        <div class="project-status">
+                            <span class="status-badge epic">Epic</span>
+                        </div>
+                    </div>
+                    <div class="project-description">
+                        <p>A tempest of cascading styles that brings order to chaos. This dynamic styling system 
+                           harnesses the full power of CSS3 animations and transforms to create visual poetry.</p>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">Animations</span>
+                        <span class="tech-tag">Flexbox</span>
+                    </div>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <i class="fas fa-palette"></i>
+                            <span>12 Themes</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-magic"></i>
+                            <span>50+ Animations</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-bolt"></i>
+                            <span>Lightning Fast</span>
+                        </div>
+                    </div>
+                    <div class="project-actions">
+                        <button class="project-btn primary">
+                            <i class="fas fa-eye"></i>
+                            <span>View Quest</span>
+                        </button>
+                        <button class="project-btn secondary">
+                            <i class="fab fa-github"></i>
+                            <span>Source</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Logic Labyrinth</h3>
+                        <div class="project-status">
+                            <span class="status-badge rare">Rare</span>
+                        </div>
+                    </div>
+                    <div class="project-description">
+                        <p>A maze of JavaScript logic where algorithms come alive. Navigate through complex 
+                           data structures and emerge victorious with clean, efficient code.</p>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">ES6+</span>
+                        <span class="tech-tag">Algorithms</span>
+                    </div>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <i class="fas fa-brain"></i>
+                            <span>Complex Logic</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-cogs"></i>
+                            <span>10+ Functions</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-check"></i>
+                            <span>Bug Free</span>
+                        </div>
+                    </div>
+                    <div class="project-actions">
+                        <button class="project-btn primary">
+                            <i class="fas fa-eye"></i>
+                            <span>View Quest</span>
+                        </button>
+                        <button class="project-btn secondary">
+                            <i class="fab fa-github"></i>
+                            <span>Source</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Summon the Code Athletes</h2>
+                <p class="section-subtitle">Open the portal of communication</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-intro">
+                        <h3>Ready to Begin an Epic Quest?</h3>
+                        <p>Whether you seek digital architects or strategic teammates, the portal awaits your message. 
+                           Choose your method of summoning wisely, for every great adventure begins with a single step.</p>
+                    </div>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>Send a Scroll</h4>
+                                <p>ojas.anadi.codeathlete@email.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>Voice Communication</h4>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>Physical Realm</h4>
+                                <p>Digital Dimension, Code City</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <h4>Follow the Journey</h4>
+                        <div class="social-grid">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                                <span>Twitter</span>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form" class="message-form">
+                        <div class="form-group">
+                            <label for="name">Your Noble Name</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="form-line"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Mystical Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="form-line"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Quest Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                            <span class="form-line"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Dispatch Your Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <span class="form-line"></span>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span>Send the Scroll</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>⚡ Anadi - The Code Athlete</h3>
+                    <p>Where boring things become legendary adventures</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#hero">Genesis</a>
+                    <a href="#about">Origins</a>
+                    <a href="#skills">Powers</a>
+                    <a href="#sports">Arena</a>
+                    <a href="#projects">Conquests</a>
+                    <a href="#contact">Summon</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Anadi. All rights reserved. Crafted with ⚡ and ❤️</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
